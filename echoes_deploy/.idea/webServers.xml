@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2eb0e071-b111-4730-a6f9-4479ffb0dc60" name="echoes_deploy" url="http://localhost">
+        <fileTransfer host="localhost" port="10333" privateKey="$USER_HOME$/.ssh/id_rsa_step" rootFolder="/var/aainc/deploy/echoes_act2" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10333" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
